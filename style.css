@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(53 54 58) ;
+}
+
+.data-box-main {
+width: 500px;
+height: 600px;
+background-color: transparent;
+border-style: solid;
+border-width: thin;
+border-color: white;
+border-radius: 2px;
+margin: 0 auto;
+
+    
+}
