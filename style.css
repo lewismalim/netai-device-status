@@ -5,13 +5,14 @@ body {
 .data-box-main {
 width: 500px;
 height: 600px;
+color: white;
 border-style: solid;
 border-width: thin;
 border-color: white;
 border-radius: 2px;
 margin: 0 auto;
-background-color: black;
-opacity: 0.3;
+background-color: rgba(0,0,0,0.2)
+
 
     
 }
