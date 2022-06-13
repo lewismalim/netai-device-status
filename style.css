@@ -1,8 +1,14 @@
 body {
+    margin: 0;
     background-color: rgb(53 54 58) ;
+    background-image: url(../images/space-200.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
 }
 
 .data-box-main {
+/*display :grid;*/
 width: 500px;
 height: 600px;
 color: white;
@@ -11,8 +17,23 @@ border-width: thin;
 border-color: white;
 border-radius: 2px;
 margin: 0 auto;
-background-color: rgba(0,0,0,0.2)
+background-color: rgba(0,0,0,0.2) ;
+margin-top: 5%;
+  
+}
 
+.data-box-head {
+    height: 40px;
+    background-color: black;
+}
 
-    
+.data-box-label {
+    height: 20px;
+    background-color: rgb(202, 202, 202);
+    color:black;
+}
+
+.data-box-content {
+    height: 40px;
+    background-color: rgb(156, 88, 88);
 }
